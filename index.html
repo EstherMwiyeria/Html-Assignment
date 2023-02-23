@@ -1,56 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LOGIN</title>
-    <style>
-#emoji{
-    float: inline-start;width: 42px;height: 42px;
-    
-}
-#heading{
-    border-radius: 1px;
-    width: 60%;
-    float: left;
-    height: 100%;
-}
-body{
-    text-align: center;
-    background-color: rgb(163, 219, 219);
-} 
-#highlight{font-weight: bold;
-
-}      
-    </style>
 </head>
 <body>
-    <form>
-        <img id="heading" src="guerrillabuzz-blockchain-pr-agency-imM0GX3q1vg-unsplash.jpg" alt="Background Image" height="50%" width="90%">
-        <h1>Hey,hello
-            <img id="emoji" src="emoji2.jpg" alt="hey-emoji">
-        </h1>
-        <p>Enter the information you entered while registering</p>
-        
-        <label for="email">Email:</label><br>
-        <input type="email" placeholder="Enter email"> 
-        <br>
-        <br>
-        <label for="password">Password:</label><br>
-        <input type="password" placeholder="Enter password"><br>
-        <br>
-        <input type="checkbox" name="checkbox">
-        <span>Remember me</span>
-        <br>
-        <br>
-        <div class="loginbox"></div>
-        <input type="submit" value="Login">
-        <br>
-        <br>
-        <p>Don't have an account?<a href="sign-up.html" id="highlight">Sign up</a></p>
-        <p>or</p>
-        <input type="submit" value="Sign in with Google">
+    <section>
+        <div class="all">
+        <div>
+            <img id="side" src="secondimage.jpg" alt="side photo">
+        </div>
+        <div class="info">
+        <form class="information">
+             <h1>Hey,hello &#128075</h1>
+            <p>Enter the information you entered while registering</p>
+            
+            <label>Email</label>
+            <br>
+            <input type="email" placeholder="Enter email"> 
+            <br>
+            <br>
+            <label for="password">Password:</label><br>
+            <input type="password" placeholder="Enter password"><br>
+            <br>
+            <input type="checkbox" name="checkbox">
+           <label>Remember me</label><p></p><span>forgot password ?</span>
+            <br>
+            <button>login</button>
+            <br>
+            <p>Don't have an account?<a href="sign-up.html" id="highlight">Sign up</a></p>
+            <p>or</p>
+            <input type="submit" value="Sign in with Google">
+        </form>
+    </div>
+    </div>
+   
+</section>
             
 </body>
 </html>
